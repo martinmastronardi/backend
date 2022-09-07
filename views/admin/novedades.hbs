@@ -1,0 +1,56 @@
+<div class="container" style="margin-top: 50px">
+    {{!-- Fila 1 --}}
+    <div class="row">
+        <p class="text-end">Hola {{persona}} ! <a class="btn btn-danger" href="/admin/login/logout">Cerrar Sesion <i
+                    class="fas fa-sign-out-alt"></i></a></p>
+    </div>
+    {{!-- Fin de Fila 1 --}}
+    {{!-- fila 2 --}}
+    <div class="row">
+        <div class="col-7">
+            <h2>Listado de Novedades</h2>
+        </div>
+        <div class="col-5 text-end">
+            <a class="btn btn-success" href="/admin/novedades/agregar"><i class="fa fa-plus" aria-hidden="true"></i>
+                Nuevo</a>
+        </div>
+    </div>
+    {{!-- fin fila 2 --}}
+
+    {{!-- fila 3 --}}
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">titulo</th>
+                        <th scope="col">Imagen</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <th scope="row">{{id}}</th>
+                        <td>{{titulo}}</td>
+                        <td>{{{imagen}}}</td>
+                        <td class="text-end">
+                            <a class="btn btn-secondary" href="/admin/novedades/modificar/{{id}}">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </a>
+                            <a class="btn btn-secondary" href="/admin/novedades/eliminar/{{id}}">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </a>
+
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    {{!-- fin fila 3 --}}
+</div>

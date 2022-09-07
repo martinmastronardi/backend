@@ -1,0 +1,119 @@
+/* font-family: 'Heebo', sans-serif; */
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,446c7f+91&1+7,1+7,1+12,0+84,0+95,0+100 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(33, 89, 151, 1) 7%, rgba(35, 90, 150, 1) 12%, rgba(65, 106, 129, 0) 84%, rgba(68, 108, 127, 0) 91%, rgba(68, 108, 127, 0) 95%, rgba(68, 108, 127, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(33, 89, 151, 1) 7%, rgba(35, 90, 150, 1) 12%, rgba(65, 106, 129, 0) 84%, rgba(68, 108, 127, 0) 91%, rgba(68, 108, 127, 0) 95%, rgba(68, 108, 127, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(33, 89, 151, 1) 7%, rgba(35, 90, 150, 1) 12%, rgba(65, 106, 129, 0) 84%, rgba(68, 108, 127, 0) 91%, rgba(68, 108, 127, 0) 95%, rgba(68, 108, 127, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#00446c7f', GradientType=0);
+    /* IE6-9 */
+    padding: 10px 0;
+    cursor: default;
+    
+}
+
+header img {
+    /* background-color: #333; */
+    height: 150px;
+    width: 270px;
+    
+
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 5px;
+    /* position: relative; */
+    bottom: 65px;
+
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
+    background: rgb(235, 241, 246);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebf1f6', endColorstr='#d5ebfb', GradientType=0);
+    /* IE6-9 */
+
+    margin-top: 1px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a.Activo {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+    background: rgb(208, 228, 247);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0e4f7', endColorstr='#87bcea', GradientType=0);
+    /* IE6-9 */
+
+}
+
+nav ul li a:hover {
+
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 1px 0;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+
+
+.holder {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    font-weight: 400;
+}
+
